@@ -11,10 +11,12 @@ public class DefaultUserService implements UserService {
 
     @Override
     public void updateUserDetails(final User newUserDetails) {
+        //do something
     }
 
     @Override
     public void createUser(final User user) {
+        //do something
     }
 
     @Override

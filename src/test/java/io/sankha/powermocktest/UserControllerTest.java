@@ -12,7 +12,6 @@ import org.powermock.modules.junit4.PowerMockRunner;
 import java.util.UUID;
 
 import static org.junit.Assert.assertEquals;
-import static org.powermock.api.mockito.PowerMockito.*;
 import static org.powermock.api.support.membermodification.MemberMatcher.method;
 
 /**
@@ -21,15 +20,12 @@ import static org.powermock.api.support.membermodification.MemberMatcher.method;
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(UserController.class)
 public class UserControllerTest {
-    private DefaultUserService mockUserService;
-    private UserController userController;
-
     @Test
     public void testGetUserCount() {
-        this.mockUserService = mock(DefaultUserService.class);
-        PowerMockito.when(this.mockUserService.getUserCount()).thenReturn(100L);
-        this.userController = new UserController(this.mockUserService);
-        assertEquals(100L, this.userController.getUserCount().longValue());
+        DefaultUserService mockUserService = PowerMockito.mock(DefaultUserService.class);
+        PowerMockito.when(mockUserService.getUserCount()).thenReturn(100L);
+        UserController userController = new UserController(mockUserService);
+        assertEquals(100L, userController.getUserCount().longValue());
     }
 
     @Test
@@ -44,8 +40,8 @@ public class UserControllerTest {
 
     @Test
     public void testMockPrivateMethod() throws Exception {
-        UserController spy = spy(new UserController());
-        when(spy, method(UserController.class, "getGreetingFormat")).withNoArguments().thenReturn("Good Morning %s %s");
+        UserController spy = PowerMockito.spy(new UserController());
+        PowerMockito.when(spy, method(UserController.class, "getGreetingFormat")).withNoArguments().thenReturn("Good Morning %s %s");
         User user = new User();
         user.setFirstName("Sankha");
         user.setSurname("Ghosh");

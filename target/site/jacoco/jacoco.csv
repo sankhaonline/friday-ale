@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+friday-ale,io.sankha.powermocktest,EmployeeController,0,19,0,0,0,7,0,3,0,3
+friday-ale,io.sankha.powermocktest,EmployeeService,8,0,0,0,3,0,3,0,3,0
+friday-ale,io.sankha.powermocktest,UserController,46,0,0,0,6,0,6,0,6,0
+friday-ale,io.sankha.powermocktest,ClassToTest,9,0,0,0,4,0,4,0,4,0
+friday-ale,io.sankha.powermocktest,User,0,17,0,0,0,4,0,5,0,5
+friday-ale,io.sankha.powermocktest,DefaultUserService,12,0,0,0,5,0,5,0,5,0
+friday-ale,io.sankha.powermocktest,SimpleFinalClazz,5,0,0,0,2,0,2,0,2,0
+friday-ale,io.sankha.powermocktest,Employee,7,3,0,0,2,1,2,1,2,1
+friday-ale,io.sankha.powermocktest,FinalClazzUser,0,17,0,0,0,2,0,2,0,2
