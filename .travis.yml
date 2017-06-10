@@ -8,4 +8,4 @@ env:
 - CI=true
 
 after_success:
-- bash <(curl -s https://codecov.io/bash) -t 58fe46a2-7723-4f3a-8b00-b1efb4e45d6b
+- bash <(curl -s https://codecov.io/bash) -t 2a04937b-7cef-459b-a1ff-aa2ad93dca07
