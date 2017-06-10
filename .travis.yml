@@ -1,5 +1,6 @@
 language: java
-sudo: false # faster builds
+sudo: false
+install: true
 
 addons:
   sonarqube:
@@ -15,7 +16,8 @@ script:
 
 cache:
   directories:
-- '$HOME/.sonar/cache'
+   - '$HOME/.m2/repository'
+   - '$HOME/.sonar/cache'
 
 env:
 - CI=true
