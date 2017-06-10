@@ -1,8 +1,21 @@
 language: java
 sudo: false # faster builds
 
+addons:
+  sonarqube:
+    organization: "sankhaonline"
+    token:
+      secure: "337edd29ec0203690a81dd529d83d8914931b997"
+
 jdk:
-- oraclejdk8
+  - oraclejdk8
+
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+
+cache:
+  directories:
+- '$HOME/.sonar/cache'
 
 env:
 - CI=true
