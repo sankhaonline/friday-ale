@@ -1,13 +1,5 @@
-build_script:
+version: 1.0.{build}
 
-  - mvn clean install
+build:
 
-test_script:
-
-  - mvn test
-
-cache:
-
-  - C:\maven\
-
-  - C:\Users\appveyor\.m2
+  verbosity: minimal
