@@ -10,6 +10,7 @@
 [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=io.sankha:friday-ale)](https://sonarcloud.io/dashboard?id=io.sankha%3Afriday-ale)
 [![Technical debt ratio](https://sonarcloud.io/api/badges/gate?key=io.sankha:friday-ale&metric=sqale_debt_ratio)](https://sonarcloud.io/dashboard?id=io.sankha%3Afriday-ale)
 [![javadoc.io](https://img.shields.io/badge/javadoc-Unknown-brightgreen.svg)](http://www.javadoc.io/doc/io.sankha/friday-ale)
+[![Dependency Status](https://www.versioneye.com/user/projects/593d3f850fb24f004fc60174/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/593d3f850fb24f004fc60174)
 
 
 
