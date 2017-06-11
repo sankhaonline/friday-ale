@@ -25,3 +25,6 @@ env:
 after_success:
 - bash <(curl -s https://codecov.io/bash)
  - mvn clean cobertura:cobertura org.eluder.coveralls:coveralls-maven-plugin:report
+ 
+ notifications:
+  webhooks: https://coveralls.io/webhook?repo_token=42NwcDIqQlLUwxJ99grBrTALBXGpyQbqU
