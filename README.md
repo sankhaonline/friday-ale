@@ -1,6 +1,7 @@
 # friday-ale
 
 [![Travis](https://img.shields.io/travis/sankhaonline/friday-ale.svg?style=plastic)](https://travis-ci.org/sankhaonline/friday-ale)
+[![Build Status](https://semaphoreci.com/api/v1/sankhaonline/friday-ale/branches/master/shields_badge.svg)](https://semaphoreci.com/sankhaonline/friday-ale)
 [![codecov](https://codecov.io/gh/sankhaonline/friday-ale/branch/master/graph/badge.svg)](https://codecov.io/gh/sankhaonline/friday-ale)
 [![Coverage Status](https://coveralls.io/repos/github/sankhaonline/friday-ale/badge.svg)](https://coveralls.io/github/sankhaonline/friday-ale)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aee0da9ba4e941e8b17307795a56e0e3)](https://www.codacy.com/app/sankhaonline/friday-ale?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sankhaonline/friday-ale&amp;utm_campaign=Badge_Grade)
