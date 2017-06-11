@@ -7,6 +7,7 @@ addons:
     organization: "sankhaonline-github"
     token:
       secure: "337edd29ec0203690a81dd529d83d8914931b997"
+  srcclr: true
 
 jdk:
   - oraclejdk8
