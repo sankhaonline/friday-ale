@@ -11,6 +11,9 @@
 [![Technical debt ratio](https://sonarcloud.io/api/badges/gate?key=io.sankha:friday-ale&metric=sqale_debt_ratio)](https://sonarcloud.io/dashboard?id=io.sankha%3Afriday-ale)
 [![javadoc.io](https://img.shields.io/badge/javadoc-Unknown-brightgreen.svg)](http://www.javadoc.io/doc/io.sankha/friday-ale)
 [![Dependency Status](https://www.versioneye.com/user/projects/593d3f850fb24f004fc60174/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/593d3f850fb24f004fc60174)
+[![Code Climate](https://codeclimate.com/github/sankhaonline/friday-ale/badges/gpa.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
+[![Issue Count](https://codeclimate.com/github/sankhaonline/friday-ale/badges/issue_count.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
+[![Stories in Ready](https://badge.waffle.io/sankhaonline/friday-ale.png?label=ready&title=Ready)](http://waffle.io/sankhaonline/friday-ale)
 
 
 
