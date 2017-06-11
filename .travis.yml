@@ -27,7 +27,7 @@ addons:
       description: "Build submitted via Travis CI"
     notification_email: sankhaonline@yahoo.co.uk
     build_command_prepend: "mvn clean"
-    build_command:   "mvn compile"
+    build_command:   "mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar"
     branch_pattern: coverity_scan
 
 cache:
