@@ -19,6 +19,9 @@
 [![GitHub tag](https://img.shields.io/github/tag/sankhaonline/badges.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
 
 
-
+<a href="https://scan.coverity.com/projects/sankhaonline-friday-ale">
+  <img alt="Coverity Scan Build Status"
+       src="https://img.shields.io/coverity/scan/12909.svg"/>
+</a>
 
 Demo project to perform POC on different tools/frameworks in Java
