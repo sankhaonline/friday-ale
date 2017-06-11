@@ -14,6 +14,25 @@ jdk:
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 
+env:
+  global:
+   # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
+   #   via the "travis encrypt" command using the project repo's public key
+   - secure: "i8TEhqplbGb4fJy3dF6V524a4fTqruRDo03Hem0ISA4xa7osdQiNSdY7pWCQBHRdLyrqKxmartEmMkA/5cOMD1STrnYhmUtLbLlzu4qiNSDw8vKjmffij17Cme9UPBySRpCLpJ6YY9uA14OVQp4DHjgkNyKF7b7XK3SSTsdyTUDu/Om7XnHVVJresiDn19LPnoseL1zAYdIJPJ5Dz9tvfEQnnARNAN5D3kV9367j+FBNdEVxwsvc+RQxSaAAah/PlpswmjVysi049nK80n2jA0AgD6GPuAm373iDHeH2NWudx3TEz75jnxz3+xF4PSdeHfGjeK2KcO9LF0UXSgqJoHOaVteY1f08W/F3Lu8cMA8nFA4silgLMZolHu9vHPx+gxWnJl4U7L1zCiCocVwy/l4VXu5/aprdFZqMNFrSIWmEd/LFFXnGBSvS8+AmYyngZSnMymjVo6w1THeeE6sKRn+0w03uo5Szgo4yvsDyRhfP8hGuAsF3cMzBQt8IN/S5J8MbpibNjow0m8GOUjNVjnFtUs+Svu9WBGgYPfvDyJzWAbxLzqvwZ96my3Jc9w6urONrYy2lnCgh+keEI10gR7GbGBjBE4vKBJA/QVkk16m+cnQWWmTdh4B2rNKpa7F6T8JIXYYtePiWL9a26FbXnz2m+SbQKil1p/92oC7b25Y="
+
+before_install:
+      - echo -n | openssl s_client -connect scan.coverity.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' | sudo tee -a /etc/ssl/certs/ca-
+
+addons:
+  coverity_scan:
+    project:
+      name: "sankhaonline/friday-ale"
+      description: "Build submitted via Travis CI"
+    notification_email: sankhaonline@yahoo.co.uk
+    build_command_prepend: "mvn clean"
+    build_command:   "mvn compile"
+    branch_pattern: coverity_scan
+
 cache:
   directories:
    - '$HOME/.m2/repository'
