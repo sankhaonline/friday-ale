@@ -19,7 +19,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/sankhaonline/badges.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
 
 
-[![Gitter chat](https://img.shields.io/gitter/room/friday-ale/gitter.svg)](https://img.shields.io/gitter/room/friday-ale)
+[![Gitter chat](https://img.shields.io/gitter/room/friday-ale/gitter.svg)](https://gitter.im/friday-ale/)
 
 <a href="https://scan.coverity.com/projects/sankhaonline-friday-ale">
   <img alt="Coverity Scan Build Status"
