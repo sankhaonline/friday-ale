@@ -1,3 +1,5 @@
+## Welcome to Friday Ale
+
 # friday-ale
 
 [![Travis](https://img.shields.io/travis/sankhaonline/friday-ale.svg?style=plastic)](https://travis-ci.org/sankhaonline/friday-ale)
