@@ -18,14 +18,13 @@
 [![Issue Count](https://codeclimate.com/github/sankhaonline/friday-ale/badges/issue_count.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
 [![Stories in Ready](https://badge.waffle.io/sankhaonline/friday-ale.png?label=ready&title=Ready)](http://waffle.io/sankhaonline/friday-ale)
 [![GitHub tag](https://img.shields.io/github/tag/sankhaonline/badges.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
-[![Bintray](https://img.shields.io/bintray/v/sankhaonline/friday-ale/friday-ale.svg)](https://bintray.com/sankhaonline/friday-ale/friday-ale)
+ [ ![Download](https://api.bintray.com/packages/sankhaonline/friday-ale/friday-ale/images/download.svg) ](https://bintray.com/sankhaonline/friday-ale/friday-ale/_latestVersion)
 
 
 [![Gitter chat](https://img.shields.io/gitter/room/friday-ale/gitter.svg)](https://gitter.im/friday-ale/)
 [![Javadocs](http://javadoc.io/badge/io.sankha/friday-ale.svg)](http://javadoc.io/doc/io.sankha/friday-ale)
 [![star this repo](http://githubbadges.com/star.svg?user=sankhaonline&repo=friday-ale&style=default&color=fff&background=ffbd88)](https://github.com/sankhaonline/friday-ale)
 [![fork this repo](http://githubbadges.com/fork.svg?user=sankhaonline&repo=friday-ale&style=default&color=fff&background=ffbd88)](https://github.com/sankhaonline/friday-ale/fork)
-
 <a href="https://scan.coverity.com/projects/sankhaonline-friday-ale">
   <img alt="Coverity Scan Build Status"
        src="https://img.shields.io/coverity/scan/12909.svg"/>
