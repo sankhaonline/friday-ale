@@ -13,7 +13,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aee0da9ba4e941e8b17307795a56e0e3)](https://www.codacy.com/app/sankhaonline/friday-ale?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sankhaonline/friday-ale&amp;utm_campaign=Badge_Grade)
 [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=io.sankha:friday-ale)](https://sonarcloud.io/dashboard?id=io.sankha%3Afriday-ale)
 [![Technical debt ratio](https://sonarcloud.io/api/badges/gate?key=io.sankha:friday-ale&metric=sqale_debt_ratio)](https://sonarcloud.io/dashboard?id=io.sankha%3Afriday-ale)
-[![javadoc.io](https://img.shields.io/badge/javadoc-Unknown-brightgreen.svg)](http://www.javadoc.io/doc/io.sankha/friday-ale)
 [![Dependency Status](https://www.versioneye.com/user/projects/593d3f850fb24f004fc60174/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/593d3f850fb24f004fc60174)
 [![Code Climate](https://codeclimate.com/github/sankhaonline/friday-ale/badges/gpa.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
 [![Issue Count](https://codeclimate.com/github/sankhaonline/friday-ale/badges/issue_count.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
