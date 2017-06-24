@@ -22,6 +22,7 @@
 
 
 [![Gitter chat](https://img.shields.io/gitter/room/friday-ale/gitter.svg)](https://gitter.im/friday-ale/)
+[![Javadocs](http://javadoc.io/badge/io.sankha/friday-ale.svg)](http://javadoc.io/doc/io.sankha/friday-ale)
 
 <a href="https://scan.coverity.com/projects/sankhaonline-friday-ale">
   <img alt="Coverity Scan Build Status"
