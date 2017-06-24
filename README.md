@@ -23,6 +23,8 @@
 
 [![Gitter chat](https://img.shields.io/gitter/room/friday-ale/gitter.svg)](https://gitter.im/friday-ale/)
 [![Javadocs](http://javadoc.io/badge/io.sankha/friday-ale.svg)](http://javadoc.io/doc/io.sankha/friday-ale)
+[![star this repo](http://githubbadges.com/star.svg?user=sankhaonline&repo=friday-ale&style=default&color=fff&background=ffbd88)](https://github.com/sankhaonline/friday-ale)
+[![fork this repo](http://githubbadges.com/fork.svg?user=sankhaonline&repo=friday-ale&style=default&color=fff&background=ffbd88)](https://github.com/sankhaonline/friday-ale/fork)
 
 <a href="https://scan.coverity.com/projects/sankhaonline-friday-ale">
   <img alt="Coverity Scan Build Status"
