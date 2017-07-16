@@ -1,4 +1,4 @@
-package io.sankha.sparkexample;
+package io.sankha.apachespark;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;

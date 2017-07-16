@@ -1,4 +1,4 @@
-package io.sankha.sparkexample;
+package io.sankha.apachespark;
 
 import org.junit.Test;
 
