@@ -19,6 +19,7 @@
 [![Stories in Ready](https://badge.waffle.io/sankhaonline/friday-ale.png?label=ready&title=Ready)](http://waffle.io/sankhaonline/friday-ale)
 [![GitHub tag](https://img.shields.io/github/tag/sankhaonline/badges.svg)](https://codeclimate.com/github/sankhaonline/friday-ale)
  [ ![Download](https://api.bintray.com/packages/sankhaonline/friday-ale/friday-ale/images/download.svg) ](https://bintray.com/sankhaonline/friday-ale/friday-ale/_latestVersion)
+ [![Sputnik](https://sputnik.ci/conf/badge)](https://sputnik.ci/app#/builds/sankhaonline/friday-ale)
 
 
 [![Gitter chat](https://img.shields.io/gitter/room/friday-ale/gitter.svg)](https://gitter.im/friday-ale/)
