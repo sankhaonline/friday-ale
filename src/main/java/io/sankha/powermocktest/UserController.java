@@ -1,16 +1,28 @@
 package io.sankha.powermocktest;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 import java.util.UUID;
 
 /**
  * Created by User on 04-06-2017.
  */
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 public class UserController {
+    public UserController() {
+    }
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
+
+    public UserService getUserService() {
+        return userService;
+    }
+
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
+
     private UserService userService;
 
     public Long getUserCount() {
